@@ -155,7 +155,6 @@ body {
   justify-content:space-around;
 }
 .left{
-  background-color:red;
   margin-left: 15px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -167,7 +166,7 @@ body {
   opacity: 0.9;
 }
 .right{
-  background-color:#36454F;
+  background-color:#228b22;
   margin-right: 15px;
   flex-direction:column;
   border-top-right-radius: 20px;
