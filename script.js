@@ -47,3 +47,6 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";  
 }
+window.setInterval(function(){
+  plusSlides(1);
+}, 2000);
