@@ -117,9 +117,9 @@ body {font-family: Verdana, sans-serif; margin:0}
 img {vertical-align: middle;} */
 
 /* Slideshow container */
-.carousel-item img {
+.carousel-item .img-fluid {
   width: 100%;
-  height: auto;
+  height: 100vh;
 }
 
 .txt {
