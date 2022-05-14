@@ -119,7 +119,7 @@ img {vertical-align: middle;} */
 /* Slideshow container */
 .carousel-item .img-fluid {
   width: 100%;
-  height: 427px;
+  height: auto;
 }
 
 .txt {
