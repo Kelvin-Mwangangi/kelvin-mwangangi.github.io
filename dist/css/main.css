@@ -296,17 +296,17 @@ span {
 }
 
 i {
-  color: #274f73;
+  color: #800000;
   transition: color 0.3s ease-out;
 }
 
 a {
-  color: #274f73;
+  color: #800000;
   transition: all 0.3s ease-out;
 }
 
 a:hover {
-  color: gold;
+  color: goldenrod;
 }
 
 /*
@@ -365,7 +365,7 @@ s {
   position: absolute;
   width: 100%;
   height: 0.4rem;
-  background-color: #ead94c;
+  background-color: goldenrod;
   bottom: -0.8rem;
   left: 0;
 }
@@ -385,7 +385,7 @@ s {
   display: block;
   height: 100%;
   width: 0.4rem;
-  background-color: #ead94c;
+  background-color: goldenrod;
   top: 0;
   left: 0;
 }
@@ -612,7 +612,7 @@ s {
 }
 
 .color-hover-active {
-  color: #ead94c;
+  color: goldenrod;
 }
 
 .color-danger {
@@ -640,7 +640,7 @@ s {
 }
 
 .background-hover-active {
-  background-color: #ead94c;
+  background-color: goldenrod;
 }
 
 .background-light-gray {
@@ -1217,7 +1217,7 @@ s {
   transform: translate(-50%, -50%);
   width: 100%;
   height: 0.3rem;
-  background-color: #274f73;
+  background-color: #800000;
 }
 
 .header .header__mobile--icon span:nth-child(1) {
@@ -1690,7 +1690,7 @@ s {
 }
 
 .footer {
-  background-color: #0a151e;
+  background-color: #2e0000;
   padding: 5rem 0;
   color: #ffffff;
 }
@@ -4028,7 +4028,7 @@ button[type="submit"] {
   border: 0;
   cursor: pointer;
   color: #ffffff;
-  background-color: #274f73;
+  background-color: #800000;
   border: 0.1rem solid transparent;
   transition: all 0.3s ease-out;
 }
@@ -4045,13 +4045,13 @@ button[type="submit"] {
 input[type="submit"]:hover,
 button[type="submit"]:hover {
   color: #ffffff;
-  background-color: #ead94c;
+  background-color: goldenrod;
 }
 
 .button.button--link,
 input[type="submit"].button--link,
 button[type="submit"].button--link {
-  color: #274f73;
+  color: #800000;
   background-color: transparent;
   padding: 1.6rem 0;
 }
@@ -4065,7 +4065,7 @@ button[type="submit"].button--link i {
 .button.button--link:hover,
 input[type="submit"].button--link:hover,
 button[type="submit"].button--link:hover {
-  color: #ead94c;
+  color: goldenrod;
 }
 
 @media screen and (min-width: 0em) {
@@ -4174,7 +4174,7 @@ button[type="submit"].button--link:hover {
   width: calc(100% - 4rem);
   height: calc(100% - 4rem);
   background-color: transparent;
-  border: 0.2rem solid #ead94c;
+  border: 0.2rem solid goldenrod;
   transition: transform 0.3s ease-out;
 }
 
@@ -4191,7 +4191,7 @@ button[type="submit"].button--link:hover {
 }
 
 .card.card--picture {
-  border: 0.2rem solid #ead94c;
+  border: 0.2rem solid goldenrod;
 }
 
 .card.card--picture::before {
@@ -4199,7 +4199,7 @@ button[type="submit"].button--link:hover {
   display: block;
   width: 30rem;
   height: 30rem;
-  background-color: #ead94c;
+  background-color: goldenrod;
   position: absolute;
   left: -4rem;
   bottom: -12rem;
@@ -4252,13 +4252,13 @@ button[type="submit"].button--link:hover {
 
 .card--shop .shop__link .button--link {
   margin-top: 1rem;
-  color: #ead94c;
+  color: goldenrod;
   padding: 1.6rem 3rem;
-  border: 0.1rem solid #ead94c;
+  border: 0.1rem solid goldenrod;
 }
 
 .card--shop .shop__link .button--link:hover {
-  background-color: #ead94c;
+  background-color: goldenrod;
   color: #ffffff;
 }
 
@@ -4270,13 +4270,13 @@ button[type="submit"].button--link:hover {
   width: 5rem;
   height: 5rem;
   font-size: 3rem;
-  background-color: #274f73;
+  background-color: #800000;
   color: #ffffff;
   border-radius: 50%;
 }
 
 .owl-carousel .owl-nav button.owl-prev:hover, .owl-carousel .owl-nav button.owl-next:hover {
-  background-color: #ead94c;
+  background-color: goldenrod;
 }
 
 #hero-carousel {
@@ -4355,7 +4355,7 @@ button[type="submit"].button--link:hover {
 }
 
 #hero-carousel .owl-dots .owl-dot.active, #hero-carousel .owl-dots .owl-dot:hover {
-  background-color: #ead94c;
+  background-color: goldenrod;
 }
 
 #event-carousel {
@@ -4479,7 +4479,7 @@ button[type="submit"].button--link:hover {
 }
 
 .form__input:hover, .form__input:focus {
-  border-color: #274f73;
+  border-color: #800000;
 }
 
 .form__textarea {
@@ -4519,7 +4519,7 @@ button[type="submit"].button--link:hover {
 }
 
 .form__radio:checked + .form__label--radio {
-  background-color: #ead94c;
+  background-color: goldenrod;
   color: #ffffff;
   box-shadow: none;
 }
@@ -4543,8 +4543,8 @@ button[type="submit"].button--link:hover {
 }
 
 .form .form__checkbox input:checked ~ .checkmark {
-  background-color: #ead94c;
-  border-color: #ead94c;
+  background-color: goldenrod;
+  border-color: goldenrod;
 }
 
 .form .form__checkbox input:checked ~ .checkmark::after {
@@ -4565,7 +4565,7 @@ button[type="submit"].button--link:hover {
   width: 2.5rem;
   height: 2.5rem;
   transform: scale(1);
-  border: 0.1rem solid #274f73;
+  border: 0.1rem solid #800000;
   transition: all 0.3s ease-out;
 }
 
@@ -4611,9 +4611,9 @@ button[type="submit"].button--link:hover {
   margin: 0 0.5rem;
   width: 4.5rem;
   height: 4.5rem;
-  color: #274f73;
+  color: #800000;
   cursor: pointer;
-  border: 0.2rem solid #274f73;
+  border: 0.2rem solid #800000;
   transition: all 0.3s ease-out;
 }
 
@@ -4626,13 +4626,13 @@ button[type="submit"].button--link:hover {
 }
 
 .pagination span:hover {
-  border-color: #ead94c;
-  color: #ead94c;
+  border-color: goldenrod;
+  color: goldenrod;
 }
 
 .pagination span.active {
-  background-color: #ead94c;
-  border-color: #ead94c;
+  background-color: goldenrod;
+  border-color: goldenrod;
 }
 
 .pagination span.active a {
@@ -4655,7 +4655,7 @@ button[type="submit"].button--link:hover {
   opacity: 0;
   visibility: hidden;
   cursor: pointer;
-  background-color: #274f73;
+  background-color: #800000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4663,7 +4663,7 @@ button[type="submit"].button--link:hover {
 }
 
 .scroll-to-top:hover {
-  background-color: #ead94c;
+  background-color: goldenrod;
 }
 
 .scroll-to-top.active {
@@ -4709,7 +4709,7 @@ button[type="submit"].button--link:hover {
 }
 
 .share a:hover {
-  background-color: #ead94c;
+  background-color: goldenrod;
 }
 
 .share a:hover i {
@@ -5037,7 +5037,7 @@ button[type="submit"].button--link:hover {
   position: absolute;
   width: 50%;
   height: 0.4rem;
-  background-color: #ead94c;
+  background-color: goldenrod;
   bottom: -0.8rem;
   left: 50%;
   transform: translateX(-50%);
@@ -5066,7 +5066,7 @@ button[type="submit"].button--link:hover {
   position: absolute;
   width: 50%;
   height: 0.4rem;
-  background-color: #ead94c;
+  background-color: goldenrod;
   bottom: -0.8rem;
   left: 50%;
   transform: translateX(-50%);
@@ -5180,7 +5180,7 @@ button[type="submit"].button--link:hover {
 }
 
 .sermon__download a:hover i {
-  color: #ead94c;
+  color: goldenrod;
 }
 
 .sermon__link {
@@ -5211,7 +5211,7 @@ button[type="submit"].button--link:hover {
 }
 
 .blog-single .sermon__download a:hover {
-  background-color: #ead94c;
+  background-color: goldenrod;
 }
 
 .blog-single .sermon__download a:hover i {
@@ -5339,7 +5339,7 @@ button[type="submit"].button--link:hover {
 }
 
 .sermons-single .sermon__download a:hover {
-  background-color: #ead94c;
+  background-color: goldenrod;
 }
 
 .sermons-single .sermon__download a:hover i {
