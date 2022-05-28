@@ -600,7 +600,7 @@ s {
 }
 
 .color-primary {
-  color: #228427;
+  color: #006400;
 }
 
 .color-secondary {
@@ -628,7 +628,7 @@ s {
 }
 
 .background-primary {
-  background-color: #228427;
+  background-color: #006400;
 }
 
 .background-secondary {
@@ -2784,7 +2784,7 @@ s {
   text-align: left;
   padding-left: 2px;
   padding-top: 11px;
-  background: #228427;
+  background: #006400;
 }
 
 .jp-card-logo.jp-card-amex:after {
@@ -2799,7 +2799,7 @@ s {
 }
 
 .jp-card.jp-card-amex.jp-card-identified .jp-card-front:before, .jp-card.jp-card-amex.jp-card-identified .jp-card-back:before {
-  background-color: #228427;
+  background-color: #006400;
 }
 
 .jp-card.jp-card-amex.jp-card-identified .jp-card-front .jp-card-logo.jp-card-amex {
@@ -2865,7 +2865,7 @@ s {
 }
 
 .jp-card.jp-card-discover.jp-card-identified .jp-card-front:before, .jp-card.jp-card-discover.jp-card-identified .jp-card-back:before {
-  background-color: #228427;
+  background-color: #006400;
 }
 
 .jp-card.jp-card-discover.jp-card-identified .jp-card-logo.jp-card-discover {
@@ -3006,7 +3006,7 @@ s {
 }
 
 .jp-card.jp-card-mastercard.jp-card-identified .jp-card-front:before, .jp-card.jp-card-mastercard.jp-card-identified .jp-card-back:before {
-  background-color: #228427;
+  background-color: #006400;
 }
 
 .jp-card.jp-card-mastercard.jp-card-identified .jp-card-logo.jp-card-mastercard {
@@ -3043,7 +3043,7 @@ s {
 
 .jp-card-logo.jp-card-maestro:after {
   right: 0;
-  background: #228427;
+  background: #006400;
   z-index: -1;
   opacity: 0.8;
 }
@@ -3258,8 +3258,8 @@ s {
 }
 
 .jp-card-logo.jp-card-jcb > div.b {
-  background-color: #228427;
-  background-image: linear-gradient(to right, #228427, lime);
+  background-color: #006400;
+  background-image: linear-gradient(to right, #006400, lime);
 }
 
 .jp-card.jp-card-jcb.jp-card-identified .jp-card-front:before, .jp-card.jp-card-jcb.jp-card-identified .jp-card-back:before {
@@ -3731,7 +3731,7 @@ body.lb-disable-scrolling {
 }
 
 .lb-data .lb-caption a {
-  color: #228427;
+  color: #006400;
 }
 
 .lb-data .lb-number {
@@ -4232,7 +4232,7 @@ button[type="submit"].button--link:hover {
 }
 
 .card--shop .sale-banner {
-  background-color: #228427;
+  background-color: #006400;
   padding: 0.6rem 2rem;
   font-size: 1.6rem;
   position: absolute;
