@@ -28,20 +28,6 @@
 
     <!-- =================== SITE HEADER BEGINS ============================= -->
 
-    <header class="header-fixed">
-
-      <div class="header-limiter">
-    
-        <h1><a href="#">Our Revival Seminar has began!</a></h1>
-    
-        <nav>
-          <a href="events-single.html" class="button button-block-sm">Learn more</a>
-        </nav>
-    
-      </div>
-    
-    </header>
-
     <header class="header transparent fixed light-text" data-onscroll-classes="dark-text white-bg"
       data-onscroll-logo="resources/KSH-logo-min.png">
 
@@ -125,6 +111,19 @@
 
     <!-- =================== SITE HEADER ENDS ============================= -->
 
+    <div>  
+      <div id="popUp">
+          <div id="close" class="close"><i class="fa fa-times"></i></div>
+          <div id="new"><span>NEW!</span></div>
+          <h2>Our Revival Seminar Has Began!</h2>
+          <br>
+          <a href="#" target="_blank" class="button">Visit Page</a>
+      </div>
+        <div id="plus"><span>NEW<br>&nbsp;&nbsp;<i class="fa fa-plus"></i></span></div>
+    </div>
+      
+      
+      
 
 
     <!-- =================== MAIN SECTION BEGINS ============================= -->
@@ -810,6 +809,24 @@
           }
           return true;
       }
+
+      $(document).scroll(function() {
+        var scroll = $(this).scrollTop();
+        if (scroll >= 150) {
+          $("#popUp").css("margin-left", "-425px");
+          $("#plus").css("margin-left", "0px");
+        }
+      });
+
+      $("#plus").click(function() {
+        $("#popUp").css("margin-left", "0px");
+        $("#plus").css("margin-left", "-425px");
+      });
+
+      $("#close").click(function() {
+        $("#popUp").css("margin-left", "-425px");
+        $("#plus").css("margin-left", "0px");
+      });
   </script>
 
   </body>
