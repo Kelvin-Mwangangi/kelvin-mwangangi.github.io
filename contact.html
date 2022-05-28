@@ -105,6 +105,15 @@
         </nav><!-- .header__nav ends -->
 
       </div><!-- .container ends -->
+      <div id="darkBack"></div>
+      <div id="popUp">
+        <div id="close" class="close"><i class="fa fa-times"></i></div>
+        <div id="new"><span>NEW!</span></div>
+        <h2>Our Revival Seminar Has Began!</h2>
+        <br>
+        <a href="events-single.html" target="_blank" class="ton">Learn More</a>
+      </div>
+      <div id="plus"><span>NEW!<br>&nbsp;&nbsp;<i class="fa fa-plus"></i></span></div>
 
     </header><!-- .header ends -->
 
@@ -166,7 +175,7 @@
 
               <div class="flex-lg-6">
 
-                  <div class="button"><a href="tel:+254723360102"></a> 
+                  <div class="button"><a href="tel:0723360102"></a> 
                   Safaricom
                   </div>
                   
@@ -175,8 +184,7 @@
 
               <div class="flex-lg-6">
 
-                <a href="tel:+254731823701"></a> 
-                  <div class="button"><a href="tel:+254731823701"></a> 
+                  <div class="button"><a href="tel:0731823701"></a> 
                   Airtel
                   </div>
 
@@ -217,7 +225,7 @@
 
               <div class="flex-lg-6">
 
-                  <div class="button"><a href="sms:+254723360102"></a> 
+                  <div class="button"><a href="sms:0723360102"></a> 
                   Safaricom
                   </div>
                   
@@ -225,9 +233,8 @@
               </div><!-- .flex-* ends -->
 
               <div class="flex-lg-6">
-
-                <a href="tel:+254731823701"></a> 
-                  <div class="button"><a href="sms:+254731823701"></a> 
+ 
+                  <div class="button"><a href="sms:0731823701"></a> 
                   Airtel
                   </div>
 
@@ -432,6 +439,25 @@
           }
           return true;
       }
+  </script>
+  <script type="text/javascript">
+    $(document).scroll(function() {
+  var scroll = $(this).scrollTop();
+  if (scroll >= 150) {
+    $("#popUp").css("margin-left", "-425px");
+    $("#plus").css("margin-left", "0px");
+  }
+});
+
+$("#plus").click(function() {
+  $("#popUp").css("margin-left", "0px");
+  $("#plus").css("margin-left", "-425px");
+});
+
+$("#close").click(function() {
+  $("#popUp").css("margin-left", "-425px");
+  $("#plus").css("margin-left", "0px");
+});
   </script>
 
   </body>
