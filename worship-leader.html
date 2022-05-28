@@ -105,6 +105,16 @@
 
       </div><!-- .container ends -->
 
+      <div id="darkBack"></div>
+      <div id="popUp">
+        <div id="close" class="close"><i class="fa fa-times"></i></div>
+        <div id="new"><span>NEW!</span></div>
+        <h2>Our Revival Seminar Has Began!</h2>
+        <br>
+        <a href="events-single.html" target="_blank" class="ton">Learn More</a>
+      </div>
+      <div id="plus"><span>NEW!<br>&nbsp;&nbsp;<i class="fa fa-plus"></i></span></div>
+
     </header><!-- .header ends -->
 
     <!-- =================== SITE HEADER ENDS ============================= -->
@@ -384,6 +394,26 @@
           return true;
       }
   </script>
+
+<script type="text/javascript">
+  $(document).scroll(function() {
+var scroll = $(this).scrollTop();
+if (scroll >= 150) {
+  $("#popUp").css("margin-left", "-425px");
+  $("#plus").css("margin-left", "0px");
+}
+});
+
+$("#plus").click(function() {
+$("#popUp").css("margin-left", "0px");
+$("#plus").css("margin-left", "-425px");
+});
+
+$("#close").click(function() {
+$("#popUp").css("margin-left", "-425px");
+$("#plus").css("margin-left", "0px");
+});
+</script>
 
   </body>
 
