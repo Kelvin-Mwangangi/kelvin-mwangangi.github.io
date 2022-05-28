@@ -5556,7 +5556,7 @@ button[type="submit"].button--link:hover {
 #new span {
   background: #fff;
   position: absolute;
-  color: #800000;
+  color: goldenrod;
   padding: 4px 10px;
   font-size: 16px;
   font-weight: 600;
@@ -5583,7 +5583,12 @@ button[type="submit"].button--link:hover {
   padding: 0 20px;
 }
 
-a.button {
+#body {
+  height: 1200px;
+  background: #eee;
+}
+
+a.ton {
   margin: 0 auto;
   text-align: center;
   right: 0;
@@ -5592,7 +5597,7 @@ a.button {
   width: 120px;
   font-size: 15px;
   color: #fff;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid black;
   background: goldenrod;
   border-radius: 4px;
   padding: 8px 0;
