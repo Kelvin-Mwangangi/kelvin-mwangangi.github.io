@@ -1579,7 +1579,7 @@ s {
   color: #ffffff;
   height: 30rem;
   padding-bottom: 2rem;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../images/banner.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../images/banner.webp");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -4315,11 +4315,11 @@ button[type="submit"].button--link:hover {
 }
 
 #hero-carousel #first-slide {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/hero-1.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/hero-1\ \(1\).webp");
 }
 
 #hero-carousel #second-slide {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/hero-2.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/hero-2\ \(1\).webp");
 }
 
 #hero-carousel .owl-nav .owl-prev {
